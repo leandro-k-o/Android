@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url('fontes/idroid.otf') format('opentype')
+}
+
+:root{
+    --cor1: #c5ebd6;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    background-color: var(--cor1);
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    text-align: center;
+    color: white;
+    background: linear-gradient(to bottom, green, rgb(0, 53, 0));
+    padding: 10px 15px;
+}
+
+header > p {
+    margin: auto; 
+    padding: 0px 30px;
+}
+
+.shadow{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.432);
+}
+
+nav{
+    text-align: left;
+    margin-left: 3px;
+}
+
+nav > ul{
+    padding-left: 0;
+    margin-bottom: 0px;
+}
+
+nav > ul > li{
+    list-style: none;
+    display: inline;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+li > a{
+    color: white;
+    margin-right: 1em;
+    padding: 10px;
+
+}
+
+li > a:hover{
+    background-color: rgba(0, 194, 0, 0.678);
+}
+
+main{
+    border: 1px solid;
+    margin: 0 auto;
+    max-width: 800px;   
+    min-width: 270px;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+section{
+    text-align: center;
+    margin: auto;
+}
+
+article{
+    text-align: left;
+
+}
+
+h1#maintitle{
+    font-family: android;
+}
+
+h2, p > a{
+    background: linear-gradient(to right, rgb(0, 187, 0),white);
+}
+
+img.imgpeq{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+p > a::after {
+    content: '🔗';
+}
+
+p{
+    text-indent: 30px;
+}
+
+div#extra{
+    border-radius: 10px;
+    background-color: limegreen;
+}
+
+div > h3 {
+    color: white;
+    background-color: rgb(1, 83, 1);
+    border-radius: 10px 10px 0 0;
+    padding: 5px 15px;
+}
+
+div > p {
+    margin-left: 10px;
+}
+
+div > ul{
+    list-style-type: '✔️';
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(1, 82, 1);
+    color: white;
+}
