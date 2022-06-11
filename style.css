@@ -95,6 +95,15 @@ h1#maintitle{
     font-family: android;
 }
 
+main p{
+    line-height: 1.5em;
+}
+
+h1, h2, p{
+    padding-bottom: 6px;
+    padding-top: 5px;
+}
+
 h2, p > a{
     background: linear-gradient(to right, rgb(0, 187, 0),white);
 }
@@ -116,13 +125,15 @@ p{
 div#extra{
     border-radius: 10px;
     background-color: limegreen;
+    padding: 5px 15px;
 }
 
 div > h3 {
     color: white;
     background-color: rgb(1, 83, 1);
+    text-indent: 15px;
     border-radius: 10px 10px 0 0;
-    padding: 5px 15px;
+    margin: -10px -15px 0 -15px;
 }
 
 div > p {
